@@ -1,0 +1,136 @@
+body{
+margin: 0;
+}
+
+/* navbar */
+.headfrst{
+  background-color: #f4f6ff;
+}
+
+/* head-second description */
+
+
+.headingcomp-name{
+  color: #FBD46D;
+  font-family: "Montserrat" "Ubuntu";
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.headingcom-para{
+
+}
+
+.headsec{
+  background-color: #f4f6ff;
+  padding: 5% 15%;
+  text-align: center;
+
+}
+
+
+.butn-col{
+  border-radius: 15px;
+  border-color: #FBD46D;
+  color: #FBD46D;
+
+}
+.butn-col:hover{
+  background-color: #FBD46D;
+}
+
+/* Section Third */
+
+.headthird{
+
+  padding: 5% 15%;
+}
+
+.img-third1{
+  width: 70%;
+  transform: rotate(-25deg);
+  margin-left: 15%;
+
+
+}
+
+.headthird-text{
+padding-top: 5%;
+text-align: left;
+
+}
+
+.headthird-text1{
+  color: #FBD46D;
+  font-family: "Montserrat" "Ubuntu";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.headthird-para1{
+
+}
+
+/* Section forth */
+.headforth{
+  background-color: #FBD46D;
+  padding: 2% 15%;
+}
+
+.headforth-text{
+  padding-top: 15%;
+  text-align: left;
+}
+
+.headforth-text1{
+  color: #f4f6ff;
+  font-family: "Montserrat" "Ubuntu";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.headforth-para{
+  color: #f4f6ff;
+}
+
+.img-forth1{
+width: 80%;
+margin: 5%;
+}
+
+
+.footer-container{
+  background-color: #ea907a;
+  padding: 5% 15%;
+}
+
+.image-foot{
+  width: 60%;
+  margin: 5%;
+}
+/* @Media Query */
+@media (max-width:993px) {
+
+  .headthird-text{
+    text-align: center;
+  }
+
+  .img-third1{
+    width: 40%;
+    margin: 0;
+  }
+
+  .img-third{
+    text-align: center;
+  }
+
+  .headforth-text{
+    padding-top: 5%;
+    text-align: center;
+  }
+  .img-forth1{
+    width: 40%;
+    margin: 0;
+  }
+
+}
